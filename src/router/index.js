@@ -9,7 +9,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 const router = new createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/tp-seconde'),
     routes: [
       { path: '/', component: Accueil },
       { path: '/exo1', component: Exo1 },
