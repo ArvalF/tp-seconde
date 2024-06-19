@@ -25,5 +25,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['w3c-css-validator']
   },
-  publicPath: "/tp-seconde/"
+  publicPath: process.env.NODE_ENV === 'production'
+  ? '/tp-seconde/'
+  : '/'
 })
