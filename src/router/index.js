@@ -9,15 +9,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 const router = new createRouter({
-    history: createWebHistory('/tp-seconde'),
+    history: createWebHistory(),
     routes: [
-      { path: '/', component: Accueil },
-      { path: '/exo1', component: Exo1 },
-      { path: '/exo2', component: Exo2False },
-      { path: '/vraiexo2', component: Exo2 },
-      { path: '/css', component: Exo3 },
-      { path: '/exo4', component: Exo4 },
-      { path: '/success', component: Success },
+      { path: '/tp-seconde/', component: Accueil },
+      { path: '/tp-seconde/exo1', component: Exo1 },
+      { path: '/tp-seconde/exo2', component: Exo2False },
+      { path: '/tp-seconde/vraiexo2', component: Exo2 },
+      { path: '/tp-seconde/css', component: Exo3 },
+      { path: '/tp-seconde/exo4', component: Exo4 },
+      { path: '/tp-seconde/success', component: Success },
     ]
   })
 
