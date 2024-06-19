@@ -25,6 +25,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['w3c-css-validator']
   },
-  publicPath: '/tp-seconde/',
-  base: '/tp-seconde/'
+  publicPath: '/tp-seconde/'
 })
