@@ -25,5 +25,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['w3c-css-validator']
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME/" : "/"
+  publicPath: "/tp-seconde/"
 })
