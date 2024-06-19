@@ -6,7 +6,7 @@
     <div>Bien tenté</div>
     <br>
     <div>Mais le vrai lien apparaitra si vous écrivez correctement la balise html</div>
-    <a href="/tp-seconde/exo1">Retour à la page précédente</a>
+    <router-link to="/tp-seconde/exo1">Retour à la page précédente</router-link>
 </div>
  
   </template>

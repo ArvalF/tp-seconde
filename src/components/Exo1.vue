@@ -62,7 +62,8 @@ onUpdated (() => {
     <div ref="resRef" v-html="cleanRes"></div>
     <br>
     <br>
-    <a class="link" v-if="success" href="/tp-seconde/vraiexo2">Bravo voici le vrai lien pour la partie 2</a>
+    <rouwter-link class="link" v-if="success" to="/tp-seconde/vraiexo2">Bravo voici le vrai lien pour la partie 2</rouwter-link>
+    <!-- <a class="link" v-if="success" href="/tp-seconde/vraiexo2">Bravo voici le vrai lien pour la partie 2</a> -->
     </div>
   
 
