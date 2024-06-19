@@ -9,8 +9,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 const router = new createRouter({
-    history: createWebHistory(),
-    routes: [
+  history: createWebHistory(import.meta.env.BASE_URL || ''),
+  routes: [
       { path: '/', component: Accueil },
       { path: '/exo1', component: Exo1 },
       { path: '/exo2', component: Exo2False },
