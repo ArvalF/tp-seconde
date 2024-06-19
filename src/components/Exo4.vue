@@ -45,7 +45,7 @@ const success = computed(() => {
         <div>Y centre <span><input v-model="ycentre" type="text"></span></div>
         <div>niveau de zoom <span><input v-model="zoom" type="text"></span></div>
     </div>
-    <a v-if="success" href="/success">BRAVO C'EST FINI</a>
+    <a v-if="success" href="/tp-seconde/success">BRAVO C'EST FINI</a>
 </div>
     <div class="map" ref="mapRef">
         <ol-map

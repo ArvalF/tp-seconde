@@ -79,7 +79,7 @@ watch (success, () => {
     </div>
     <br>
     <div class="effect">Mais ...<span> malheureusement la carte est toute petite &#128534</span></div>
-    <a href="/css">Pour agrandir la carte suivez ce lien</a>
+    <a href="/tp-seconde/css">Pour agrandir la carte suivez ce lien</a>
     </div>
     </div>
  

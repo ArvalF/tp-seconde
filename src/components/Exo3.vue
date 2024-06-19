@@ -91,7 +91,7 @@ onUpdated(() => {
     <button @click="updateStyle">Valider votre réponse</button>
     <br>
     <br>
-    <a v-if="success" href="/exo4" style="font-size: 50px;">Bravo lien vers exo 4</a>
+    <a v-if="success" href="/tp-seconde/exo4" style="font-size: 50px;">Bravo lien vers exo 4</a>
     <br>
     <br>
     <div class="map" ref="mapRef">
