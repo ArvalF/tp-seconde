@@ -26,5 +26,5 @@ export default defineConfig({
     exclude: ['w3c-css-validator']
   },
   publicPath: '/tp-seconde/',
-  base: '/tp-seconde/'
+  baseUrl: '/tp-seconde/'
 })
